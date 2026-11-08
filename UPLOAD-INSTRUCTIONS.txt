@@ -1,0 +1,30 @@
+STUDYNT DIARY VERSION 1.0 - HOW TO PUT IT ON GITHUB (NEW UPLOAD)
+
+FILES IN THIS PACKAGE (upload these 5, not this instructions file):
+  index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png
+
+STEPS FOR A NEW REPOSITORY (or an emptied one)
+1. On github.com tap New repository. Name it (for example: studynt). Keep it Public. Tap Create repository.
+2. Tap uploading an existing file (or Add file > Upload files). Choose the 5 files. Tap Commit changes.
+3. Tap Settings > Pages. Under Build and deployment choose Deploy from a branch. Pick main and /(root). Tap Save.
+4. Wait 1 to 2 minutes. Your link appears at the top of the Pages screen.
+5. Open the link on your phone. Close the app fully and open it again once.
+
+IF YOU REUSE THE OLD REPOSITORY
+Delete the old files (open each, tap the three dots, Delete file, Commit), then upload the 5 new files. Do not delete the repository itself unless you want a new link.
+
+NOTES
+- Saved diaries live on each phone under the storage name studynt.v1. No old data is involved.
+- Pages must be Public for a free GitHub account.
+
+TEST ON A REAL PHONE AFTER UPLOADING
+- PDF download and the Share button
+- Feedback email (Information page) opens your email app
+- Open once online, then turn on airplane mode and check it still opens
+- Dictionary word lookup and the book ideas in Resource Finder (need internet)
+- PIN Lock: set a PIN, close and reopen the app
+- Photos in My Circle
+- Install it: Add to Home screen
+
+NEXT UPDATE
+Open sw.js and change 'studynt-v1' to 'studynt-v2' (then v3...) so phones pick up the new version sooner.
